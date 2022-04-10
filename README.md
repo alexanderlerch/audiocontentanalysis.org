@@ -1,7 +1,6 @@
 ## audio content analysis
 
 add content
-(https://github.com/alexanderlerch/audiocontentanalysis.org/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
