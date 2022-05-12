@@ -1,7 +1,9 @@
 <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 <nav class="main-nav">
   <ul>
-    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+	<li {% if page.url contains '/home' %}class="active"{% endif %}><a href="/home">home</a></li>
+	<li {% if page.url contains '/datasets' %}class="active"{% endif %}><a href="/datasets">datasets</a></li>
+<!--     {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     {% for p in navigation_pages %}
       {% if p.navigation_weight %}
         <li>
@@ -10,7 +12,8 @@
           </a>
         </li>
       {% endif %}
-    {% endfor %}
+    {% endfor %} 
+	-->
   </ul>
 </nav>
 <!-- Setup Google Analytics -->
