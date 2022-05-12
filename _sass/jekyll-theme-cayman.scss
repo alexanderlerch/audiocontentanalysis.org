@@ -171,18 +171,22 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
+    padding: 2rem 6rem;
+    font-size: 1rem;
   }
 
   @include small {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
+  margin-right: 320px;
+  clear: both;
+  overflow: auto;
+  min-height: 600px;
   
   kbd {
     background-color: #fafbfc;

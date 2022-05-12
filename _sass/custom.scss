@@ -34,29 +34,38 @@ a.active {
 
 
 .side-nav {
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  position: relative;
+  width: 320px;
+  margin-left: -320px;
+  float: right;
+  overflow: hidden;
+  background: #2c3e50;
+  background: rgba(44,62,80, 0.4);
+  color: #eee;
+  min-height: 600px;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
 }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 6px 10px;
+.content-wrapper {
+  float: left;
+  width: 100%;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 10px;}
-} 
+
+
+@media only screen and (max-width: 768px) {
+  .side-nav {
+    display: none;
+  }
+  .main-content {
+    margin-right: 0;
+  }
+}
+
