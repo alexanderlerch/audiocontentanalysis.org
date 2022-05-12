@@ -2,6 +2,7 @@
 @import "rouge-github";
 @import "variables";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import "custom";
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {

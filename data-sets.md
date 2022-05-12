@@ -2,6 +2,7 @@
 layout: default
 title: datasets
 description: datasets for audio content analysis and music information retrieval
+navigation_weight: 2
 ---
 ## data-sets
 

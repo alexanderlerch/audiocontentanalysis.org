@@ -1,6 +1,10 @@
 ---
 layout: default
+title: home
+description: companion website for the book "An Introduction to Audio Content Analysis"
+navigation_weight: 1
 ---
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
