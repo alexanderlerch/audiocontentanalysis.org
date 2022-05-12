@@ -1,13 +1,5 @@
+title: audio content analysis: music information retrieval tasks and applications
+description: Cayman is a clean, responsive theme for GitHub Pages.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-cayman
-# # SITE CONFIGURATION
-# title: audio content analysis # your site title
-# author: alexander lerch
-# description: resources for audio content analysis
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-
-# # THEME SETTINGS
-# navigation:
-
-  # - {name: "data-sets", link: "/data-sets/"}
