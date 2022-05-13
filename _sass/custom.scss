@@ -40,17 +40,27 @@ a.active {
   overflow: auto;
   min-height: 600px;
 }
+
 .side-nav {
   position: relative;
   width: 200px;
   margin-left: -200px;
   float: right;
   overflow: hidden;
-  background: #2c3e50;
-  background: rgba(44,62,80, 0.5);
-  color: #eee;
+  background: rgba(255,255,255, 1);
+  color: $body-text-color;
   min-height: 600px;
   padding: 20px 20px;
+  font-size: 0.75rem;
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    color: #666;
+	text-transform: capitalize;
+  }
+
 }
 
 .wrapper {
