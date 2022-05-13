@@ -13,6 +13,7 @@ a.active {
 	  position: fixed;
 	  top: 0;
 	  width: 100%;
+      border-bottom: solid 1px $hr-border-color;
 	}
 
 	li {
@@ -23,8 +24,9 @@ a.active {
 	  display: block;
 	  color: white;
 	  text-align: center;
-	  padding: 14px 16px;
+	  padding: 14px 14px;
 	  text-decoration: none;
+	  font-size: 12px;
 	}
 
 	li a:hover {
@@ -33,21 +35,22 @@ a.active {
 }
 
 .content{
-  margin-right: 320px;
+  margin-right: 200px;
   clear: both;
   overflow: auto;
   min-height: 600px;
 }
 .side-nav {
   position: relative;
-  width: 320px;
-  margin-left: -320px;
+  width: 200px;
+  margin-left: -200px;
   float: right;
   overflow: hidden;
   background: #2c3e50;
-  background: rgba(44,62,80, 0.4);
+  background: rgba(44,62,80, 0.5);
   color: #eee;
   min-height: 600px;
+  padding: 20px 20px;
 }
 
 .wrapper {
