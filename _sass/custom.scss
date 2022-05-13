@@ -54,11 +54,16 @@ a.active {
   font-size: 0.6rem;
 
   h3 {
-    margin-top: 2rem;
+    margin-top: 0;
     margin-bottom: 0;
     font-weight: normal;
     color: #666;
     font-size: 0.8rem;
+  }
+  
+  p {
+  margin-top: 0em ;
+  margin-bottom: 2em ;
   }
 }
 
@@ -76,8 +81,7 @@ a.active {
 }
 
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: #{$medium-breakpoint}) {
   .side-nav {
     display: none;
   }
