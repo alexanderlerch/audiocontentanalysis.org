@@ -4,6 +4,9 @@ description: companion website for the book "An Introduction to Audio Content An
 navigation_weight: 1
 ---
 
+## under construction
+The 2nd edition is coming! Please note that this website is still under construction and certainly not as beautiful as it could/should be. Please let me know if you run into any problems.
+
 [An Introduction to Audio Content Analysis](http://ieeexplore.ieee.org/servlet/opac?bknumber=6266785) introduces standard base-line approaches to a variety of audio analysis and music information retrieval tasks and provides the reader with a multitude of pointers and references if interested. The book itself is accompanied by a range of free [resources](#resources) for learning, teaching, and developing audio analysis systems. 
 
 The second edition of the book is restructured, modernized, and expanded.
