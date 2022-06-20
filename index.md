@@ -5,122 +5,33 @@ navigation_weight: 1
 ---
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+[An Introduction to Audio Content Analysis](http://ieeexplore.ieee.org/servlet/opac?bknumber=6266785) introduces standard base-line approaches to a variety of audio analysis and music information retrieval tasks and provides the reader with a multitude of pointers and references if interested. The book itself is accompanied by a range of free [resources](#resources) for learning, teaching, and developing audio analysis systems. 
 
-[Link to another page](./another-page.html).
+The second edition of the book is restructured, modernized, and expanded.
 
-There should be whitespace between paragraphs.
+Targeting engineers, graduate students, and programmers with basic knowledge of signal processing, the book describes various analysis algorithms with their theoretical, technical, musical and perceptual background. "An Introduction to Audio Content Analysis) covers topics including low level feature extraction, fundamental frequency detection, key and chord recognition, onset and tempo detection, as well as tasks such as alignment and genre classification.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### resources
 
-# Header 1
+In support not only of the text book itself but also of the wider (research) community, all accompanying resources are free, public, and open source. 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+#### source code
+* [Python](https://github.com/alexanderlerch/pyACA) implementations of core algorithms from the book
+* [C++](https://github.com/alexanderlerch/libACA) implementations of core algorithms from the book
+* [Matlab](https://github.com/alexanderlerch/ACA-Code) implementations of core algorithms from the book
+* [Matlab sources to generate all plots in the book}(https://github.com/alexanderlerch/ACA-Plots)
 
-## Header 2
+#### teaching & learning resources
+* [PDF slides}(https://github.com/alexanderlerch/ACA-Slides) modularized to match to the textbook structure
+* [LaTeX sources for slides}(https://github.com/alexanderlerch/ACA-Slides) 
+* [lecture videos](https://www.audiocontentanalysis.org/class) (for the 1st edition)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+#### other resources
+* list of [datasets](https://www.audiocontentanalysis.org/data-sets) for music and audio tasks
+* list of relevant [conference deadlines](http://mir-conferences.audiocontentanalysis.org)
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+### about the author
+![photo of alexander lerch](img/lerch.png "alexander lerch")
+[Alexander Lerch](http://www.alexanderlerch.com) is Associate Professor at the Georgia Institute of Technology, where he works on the [design and implementation of algorithms for audio content analysis and music information retrieval](https://musicinformatics.gatech.edu). Lerch is author of more than 60 peer-reviewed publications on a wide range of topics in audio and music analysis and processing.
+Before he joined the faculty at Georgia Tech, he co-founded the company [zplane.development](https://www.zplane.de), a research-driven company which is a leading provider of advanced music software technology.
+He joined the faculty of the Georgia Tech, where he leads the Music Informatics Group.
