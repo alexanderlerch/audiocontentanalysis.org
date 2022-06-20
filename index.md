@@ -34,7 +34,7 @@ In support not only of the text book itself but also of the wider (research) com
 
 ### about the author
 
-![photo of alexander lerch](img/lerch.png "alexander lerch")
+<img src="img/lerch.png" alt="photo of alexander lerch" width="200"/>
 [Alexander Lerch](http://www.alexanderlerch.com) is Associate Professor at the Georgia Institute of Technology, where he works on the [design and implementation of algorithms for audio content analysis and music information retrieval](https://musicinformatics.gatech.edu). Lerch is author of more than 60 peer-reviewed publications on a wide range of topics in audio and music analysis and processing.
 Before he joined the faculty at Georgia Tech, he co-founded the company [zplane.development](https://www.zplane.de), a research-driven company which is a leading provider of advanced music software technology.
 He joined the faculty of the Georgia Tech, where he leads the Music Informatics Group.

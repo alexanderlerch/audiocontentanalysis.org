@@ -4,7 +4,7 @@ description: video lectures for the 1st edition of the book "An Introduction to 
 navigation_weight: 2
 ---
 
-[![book cover thumbnail: An Introduction to Audio Content Analysis](img/cover_aca_thumb.jpg)](http://ieeexplore.ieee.org/xpl/bkabstractplus.jsp?reload=true&bkn=6266785) These video lecture refer to edition 1 of the book, meaning that they will be differently structured and differ in content details. The lectures are an introduction to the software-based analysis of digital music signals (Music Information Retrieval) for students with existing background in audio processing. It covers the basic approaches for audio content analysis and provides students with the necessary algorithmic background to approach this class of problems. Topics include, for example, pitch tracking, beat tracking, audio feature extraction, and genre classification.
+These video lectures relate to edition 1 of the book, meaning that they will be differently structured and differ in content details. The lectures are an introduction to the software-based analysis of digital music signals (Music Information Retrieval) for students with existing background in audio processing. It covers the basic approaches for audio content analysis and provides students with the necessary algorithmic background to approach this class of problems. Topics include, for example, pitch tracking, beat tracking, audio feature extraction, and genre classification.
 
 ### prerequisites
 
